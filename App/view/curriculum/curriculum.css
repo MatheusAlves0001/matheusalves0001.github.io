@@ -1,0 +1,36 @@
+main{
+    gap: 50px;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+article{
+    display: flex;
+    gap: 30px;
+}
+
+.card-container{
+    /* font-weight: 700; */
+    width: 300px;
+    padding: 10px;
+    cursor: pointer;
+    color: #696e79;
+    border-radius: 10px;
+    height: fit-content;
+    background-color: #020617;
+}
+
+.card-container:hover{
+    transition: 500ms;
+    transform: scale(1.1);
+}
+
+.card-container h4{
+    color: white;
+}
+
+.card-container h2{
+    color: yellow;
+}

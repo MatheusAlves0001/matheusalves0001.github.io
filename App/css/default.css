@@ -1,0 +1,97 @@
+html{
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0; 
+    display: grid;
+    min-height: 100vh;
+    background-color: #111828;
+    grid-template-rows: auto 1fr auto;
+    
+}
+
+footer img{
+    width: 20px;
+}
+
+a.about-me, footer a {
+    gap: 10px;
+    display: flex;
+    color: white;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+footer a{
+    font-size: 13px;
+}
+
+header, footer{
+
+    gap: 30%;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    background-color: #030617;
+}
+
+nav a{
+    
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.color-yellow{
+    color: yellow;
+}
+
+.color-white{
+    color: white;
+}
+
+.font-size-21p{
+    font-size: 21px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.centralize{
+    margin: 10% 0;
+}
+
+.button{
+    padding: 7px;
+    color: black;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 6px;
+    background-color: yellow;
+
+}
+
+.gray-color{
+    color: #696e79;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.font-weight-600{
+    font-weight: 600;
+};
+
+.font-size-15p{
+ 
+    font-size: 15px;
+}
