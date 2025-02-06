@@ -12,7 +12,6 @@ article{
 }
 
 .card-container{
-    /* font-weight: 700; */
     width: 300px;
     padding: 10px;
     cursor: pointer;
@@ -31,6 +30,6 @@ article{
     color: white;
 }
 
-.card-container h2{
+.card-container h3{
     color: yellow;
 }
