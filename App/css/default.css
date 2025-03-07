@@ -1,3 +1,5 @@
+
+
 html{
     user-select: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -94,4 +96,44 @@ nav a{
 .font-size-15p{
  
     font-size: 15px;
+}
+
+main div.introduce-mobile {
+    display: none;
+}
+
+
+/*Cellphone resolution*/
+@media screen and (max-device-width:700px){
+
+    header, footer{
+        height: 200px;
+    }
+
+    header nav{
+        font-size: 27px;
+    }
+    
+
+    a.about-me{
+        font-size: 55px;
+    }
+
+    footer a {
+        font-size: 27px;
+    }
+
+    footer img{
+        width: 27px;
+    }
+
+    main div.introduce {
+        display: none;
+    }
+
+    main div.introduce-mobile{
+        margin: 10%;
+        display: flex;
+        flex-direction: column;
+    }
 }
