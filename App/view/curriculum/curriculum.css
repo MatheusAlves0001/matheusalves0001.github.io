@@ -40,6 +40,10 @@ article{
         flex-direction: column;
     }
 
+    section{
+        width: 100%;
+    }
+
     section h2{
         font-size: 55px;
     }
